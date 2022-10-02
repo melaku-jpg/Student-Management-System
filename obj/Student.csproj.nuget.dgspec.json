@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\This pc\\source\\repos\\Student\\Student.csproj": {}
+    "C:\\Users\\This pc\\Desktop\\Student Management System\\Student-Management-System\\Student.csproj": {}
   },
   "projects": {
-    "C:\\Users\\This pc\\source\\repos\\Student\\Student.csproj": {
+    "C:\\Users\\This pc\\Desktop\\Student Management System\\Student-Management-System\\Student.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\This pc\\source\\repos\\Student\\Student.csproj",
+        "projectUniqueName": "C:\\Users\\This pc\\Desktop\\Student Management System\\Student-Management-System\\Student.csproj",
         "projectName": "Student",
-        "projectPath": "C:\\Users\\This pc\\source\\repos\\Student\\Student.csproj",
+        "projectPath": "C:\\Users\\This pc\\Desktop\\Student Management System\\Student-Management-System\\Student.csproj",
         "packagesPath": "C:\\Users\\This pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\This pc\\source\\repos\\Student\\obj\\",
+        "outputPath": "C:\\Users\\This pc\\Desktop\\Student Management System\\Student-Management-System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\This pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.9, )"
@@ -58,7 +66,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.9, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
